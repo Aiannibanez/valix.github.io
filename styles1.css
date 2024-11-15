@@ -82,14 +82,25 @@ body {
     
 }
 
-
-@media (max-width: 768px) {
-    .pricing-container {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  
+@media screen and (max-width: 768px) {
     .pricing-plan {
-      margin-bottom: 20px;
+      width: 90%;
+      padding: 30px; 
     }
-  }
+    .plan-title {
+      font-size: 30px; 
+    }
+    
+    .plan-price {
+      font-size: 26px;
+    }
+    
+    .plan-features, .para {
+      font-size: 18px;
+    }
+    
+    .plan-button {
+      font-size: 18px;
+      padding: 12px 30px;
+    }
+}
