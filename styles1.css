@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
 
-    background-image: url(image/bgcar.jpg);
+    background-image: url(image/bgcar.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -83,12 +83,13 @@ body {
 }
 
 
-@media (max-width: 1280px) {
-    .pricing-container{
-      flex-wrap: wrap;
+@media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: stretch;
     }
-    .pricing-plan {
-      padding: 15px;
-  }
   
+    .pricing-plan {
+      margin-bottom: 20px;
+    }
   }
